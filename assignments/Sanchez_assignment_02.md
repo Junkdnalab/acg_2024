@@ -28,13 +28,11 @@
 Nearly every command in GNU has a manual, documentation that tells you all the functions and capabilities of each command that we've been learning about. Naturally, there is a program called `man` to access the manual pages (more commonly "man pages") for each command.
 
 3. Let's use `man` to figure out what some other commands do. Run `man` on the `who` command. What do you think the SYNOPSIS section is for?
-
-``` I entered in the terminal lizbeth.Sanchez@5f5e041c8ec6:~/projects/acg_2024$ man who 
+```I entered in the terminal lizbeth.Sanchez@5f5e041c8ec6:~/projects/acg_2024$ man who 
 I got this response SYNOPSIS and this means; to explore in detail the information and options avaliable for set command for example [option] and [file] futher Synopsis acts a quick guide that shows how to use a command ```
 
 
 4. Which option of `who` allows you to determine when your system was last rebooted? When was your system last booted? Show the shell interaction inside triple quotes as we did in the previous assignment.
-
 ```Lizbeth.Sanchez@5fe041c8ec6:~/projects/acg_2024$ uptime 
 ```the last time the system was last booted was in 20:47:14 up 43 days, 2:18 ```
 
@@ -57,7 +55,7 @@ Lizbeth.Sanchez@5fe041c8ec6:~/projects/acg_2024$ head breast_cancer.tsv.gz
 
 7. How many fields are there? Which number field corresponds to tumor sizes? Can you write a command to extract this column? Show the command below, but not the output.
 ```Lizbeth.Sanchez@5f5e041c8ec6:~$ awk -F '\t' '{print NF; exit}' breast_cancer.tsv.gz
-number of fields says 1``` 
+number of fields says 1```
 
 ```Which number field corresponds to tumor sizes? Ans:2 ```
 ```Can you write a command to extract this column ? Ans: Lizbeth.Sanchez@5f5e041c8ec6:~$  
@@ -85,7 +83,8 @@ command results: 41130 breast_cancer.tsv.gz
  
 ```Lizbeth.Sanchez@5f5e041c8ec6:~$ man man 
 Lizbeth.Sanchez@5f5e041c8ec6:~$ cat breast_cancer.tsv.gz |cut -f 'tumor-size' 
-cat breast_cancer.tsv.gz| head| cut -f "tumor-size"```
+cat breast_cancer.tsv.gz| head| cut -f "tumor-size```
+
 
 
 
