@@ -87,7 +87,7 @@ command results: 41130 breast_cancer.tsv.gz
  
 ` ``Lizbeth.Sanchez@5f5e041c8ec6:~$ man man 
 Lizbeth.Sanchez@5f5e041c8ec6:~$ cat breast_cancer.tsv.gz |cut -f 'tumor-size' 
-cat breast_cancer.tsv.gz| head| cut -f "tumor-size" ```
+cat breast_cancer.tsv.gz| head| cut -f "tumor-size"```
 
 
 
