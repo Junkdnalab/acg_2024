@@ -30,7 +30,7 @@ Nearly every command in GNU has a manual, documentation that tells you all the f
 3. Let's use `man` to figure out what some other commands do. Run `man` on the `who` command. What do you think the SYNOPSIS section is for?
 
 ``` I entered in the terminal lizbeth.Sanchez@5f5e041c8ec6:~/projects/acg_2024$ man who 
-I got this response SYNOPSIS and this means; to explore in detail the information and options avaliable for set command for example [option] and [file] futher Synopsis acts a quick guide that shows how to use a command. ```
+I got this response SYNOPSIS and this means; to explore in detail the information and options avaliable for set command for example [option] and [file] futher Synopsis acts a quick guide that shows how to use a command ```
 
 
 4. Which option of `who` allows you to determine when your system was last rebooted? When was your system last booted? Show the shell interaction inside triple quotes as we did in the previous assignment.
@@ -39,9 +39,8 @@ I got this response SYNOPSIS and this means; to explore in detail the informatio
 ```the last time the system was last booted was in 20:47:14 up 43 days, 2:18 ```
 
 5. Using `man`, see if you can determine what the `cut` program does? (no answer required)
-
 ```Lizbeth.Sanchez@5fe041c8ec6:~/projects/acg_2024$ man cut 
-takes me to the same page as "man who ""```
+takes me to the same page as "man who ```
 
 
 ## wc, sort, and cut
@@ -57,7 +56,6 @@ Lizbeth.Sanchez@5fe041c8ec6:~/projects/acg_2024$ head breast_cancer.tsv.gz
 {"payload":{"allShortcutsEnabled":false,"fileTree":{"datasets/breast_cancer":{"items":[{"name":"README.md","path":"datasets/breast_cancer/RE```
 
 7. How many fields are there? Which number field corresponds to tumor sizes? Can you write a command to extract this column? Show the command below, but not the output.
-
 ```Lizbeth.Sanchez@5f5e041c8ec6:~$ awk -F '\t' '{print NF; exit}' breast_cancer.tsv.gz
 number of fields says 1``` 
 
@@ -85,7 +83,7 @@ command results: 41130 breast_cancer.tsv.gz
 
 11. The `sort` command is very useful. Use the `man` page to determine how you would find all the unique values that "tumor-size" can have in this dataset. Using a strategy similar to the previous problem, what are all the unique values in the tumor-size column? (hint: string together 3 commands with 2 pipes) (show work)
  
-` ``Lizbeth.Sanchez@5f5e041c8ec6:~$ man man 
+```Lizbeth.Sanchez@5f5e041c8ec6:~$ man man 
 Lizbeth.Sanchez@5f5e041c8ec6:~$ cat breast_cancer.tsv.gz |cut -f 'tumor-size' 
 cat breast_cancer.tsv.gz| head| cut -f "tumor-size"```
 
