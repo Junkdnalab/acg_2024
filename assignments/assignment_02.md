@@ -9,6 +9,7 @@
 2. Open the newly created homework file in your homework repo within rstudio. Complete the rest of this assignment. When you're finally ready to finally hand it in, add, commit (with appropriate message) and push. If you need to make an edit before the deadline, you can repeat the commit cycle making a comment in the commit message.
 
 ## Man pages
+```
 
 Nearly every command in GNU has a manual, documentation that tells you all the functions and capabilities of each command that we've been learning about. Naturally, there is a program called `man` to access the manual pages (more commonly "man pages") for each command.
 
