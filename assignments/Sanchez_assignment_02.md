@@ -28,6 +28,7 @@
 Nearly every command in GNU has a manual, documentation that tells you all the functions and capabilities of each command that we've been learning about. Naturally, there is a program called `man` to access the manual pages (more commonly "man pages") for each command.
 
 3. Let's use `man` to figure out what some other commands do. Run `man` on the `who` command. What do you think the SYNOPSIS section is for?
+
 ```I entered in the terminal lizbeth.Sanchez@5f5e041c8ec6:~/projects/acg_2024$ man who 
 I got this response SYNOPSIS and this means; to explore in detail the information and options avaliable for set command for example [option] and [file] futher Synopsis acts a quick guide that shows how to use a command ```
 
