@@ -34,10 +34,12 @@ I got this response SYNOPSIS and this means; to explore in detail the informatio
 
 
 4. Which option of `who` allows you to determine when your system was last rebooted? When was your system last booted? Show the shell interaction inside triple quotes as we did in the previous assignment.
+
 ```Lizbeth.Sanchez@5fe041c8ec6:~/projects/acg_2024$ uptime 
 ```the last time the system was last booted was in 20:47:14 up 43 days, 2:18 ```
 
 5. Using `man`, see if you can determine what the `cut` program does? (no answer required)
+
 ```Lizbeth.Sanchez@5fe041c8ec6:~/projects/acg_2024$ man cut 
 takes me to the same page as "man who ```
 
@@ -55,6 +57,7 @@ Lizbeth.Sanchez@5fe041c8ec6:~/projects/acg_2024$ head breast_cancer.tsv.gz
 {"payload":{"allShortcutsEnabled":false,"fileTree":{"datasets/breast_cancer":{"items":[{"name":"README.md","path":"datasets/breast_cancer/RE```
 
 7. How many fields are there? Which number field corresponds to tumor sizes? Can you write a command to extract this column? Show the command below, but not the output.
+
 ```Lizbeth.Sanchez@5f5e041c8ec6:~$ awk -F '\t' '{print NF; exit}' breast_cancer.tsv.gz
 number of fields says 1```
 
